@@ -325,8 +325,8 @@
   background-color: rgb(255,165,0);
   color: white;
   border-radius: 20px;
-  width: 28%;
-  padding: 10px 20px;
+  width: 33%;
+  padding: 10px 10px;
 }
 /* ========== card-8 ========== */
 .card-8 .card-8-section .last h4{
@@ -371,6 +371,47 @@
   color: rgb(255,165,0);
 }
 
+
+/* ========== Offers-card-1 ========== */
+.offers-1{
+  background-color: rgb(243,245,250);
+}
+.offers-1 .offers-1-section .row ol{
+  list-style-type: none;
+  display: flex;
+  width: 100%;
+}
+.offers-1 .offers-1-section .row ol li a{
+  color: rgb(255,165,0);
+  text-decoration: none;
+}
+.offers-1 .offers-1-section .row ol li+li{
+  padding-left: 10px;
+}
+.offers-1 .offers-1-section .row ol .offering{
+  position: relative;
+}
+.offers-1 .offers-1-section .row ol .offering::before{
+  display: inline-block;
+  padding-right: 10px;
+  color: #4668a2;
+  content: "/";
+}
+.offers-1 .offers-1-section .row h2{
+  font-family: 'Jost', sans-serif;
+  font-weight: bold;
+  color: rgb(55,81,126);
+}
+
+/* ========== Offers-card-2 ========== */
+.offers-2 .offers-2-section .row .card img{
+  width: 100%;
+}
+/* ========== Extras ========== */
 .padtop-60{
   padding-top: 60px;
 }
+.padtop-85{
+  padding-top: 85px;
+}
+
