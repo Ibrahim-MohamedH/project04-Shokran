@@ -21,19 +21,19 @@
 .header .navbar .navbar-toggler i{
   color: black;
 }
-.header .navbar .collapse ul li a{
+.header .navbar .navbar-collapse ul li a{
   color: black;
   font-size: 15px;
   font-family: sans-serif;
 }
-.header .navbar .collapse ul li .btn{
+.header .navbar .navbar-collapse ul li .btn{
   border-radius: 20px;
   font-size: 14px;
   padding: 8px 20px;
   border: 2px solid rgb(255,165,0);
   font-weight: 600;
 }
-.header .navbar .collapse ul li .btn i{
+.header .navbar .navbar-collapse ul li .btn i{
   color: rgb(255,165,0);
 }
 
